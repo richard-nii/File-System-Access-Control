@@ -1,0 +1,14 @@
+{
+  "richie": {
+    "password": "939fc8384aea3d841f03fd3bebc720f15c77ca0e7c8c04266d1608f687d375ed",
+    "groups": [
+      "admins"
+    ]
+  },
+  "test": {
+    "password": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae",
+    "groups": [
+      "developers"
+    ]
+  }
+}

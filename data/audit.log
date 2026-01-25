@@ -1,0 +1,11 @@
+[2026-01-18 11:20] USER:richie ACTION:read FILE:/file.txt RESULT:ALLOWED
+
+{"time": "2026-01-21T21:55:38.623168", "user": "test", "action": "mkdir", "target": "/projects"}
+{"time": "2026-01-21T21:56:05.205584", "user": "test", "action": "touch", "target": "/projects/readme.txt"}
+{"time": "2026-01-21T21:57:18.717504", "user": "test", "action": "read", "target": "/projects/readme.txt"}
+{"time": "2026-01-22T06:11:18.092740", "user": "richie", "action": "touch", "target": "/secret.txt"}
+{"time": "2026-01-22T06:12:23.754882", "user": "richie", "action": "setfacl", "target": "/secret.txt user:test:r"}
+{"time": "2026-01-22T06:12:48.653792", "user": "test", "action": "read", "target": "/secret.txt"}
+{"time": "2026-01-22T11:15:02.713555", "user": "richie", "action": "mkdir", "target": "/projects"}
+{"time": "2026-01-22T11:15:30.653277", "user": "richie", "action": "setfacl", "target": "/projects group:developers:rw"}
+{"time": "2026-01-22T11:15:56.019635", "user": "richie", "action": "touch", "target": "/projects/reports.txt"}

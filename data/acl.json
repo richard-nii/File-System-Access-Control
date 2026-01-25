@@ -1,0 +1,6 @@
+{
+  "/file.txt": {
+    "bob": "r--",
+    "charlie": "rw-"
+  }
+}

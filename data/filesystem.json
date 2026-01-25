@@ -1,0 +1,58 @@
+{
+  "/": {
+    "type": "dir",
+    "owner": "root",
+    "group": "admins",
+    "permissions": "rwxr-x---",
+    "children": {}
+  },
+  "projects": {
+    "type": "dir",
+    "owner": "richie",
+    "group": "admins",
+    "permissions": "rwxr-x---",
+    "children": {}
+  },
+  "report.txt": {
+    "type": "file",
+    "owner": "richie",
+    "group": "admins",
+    "permissions": "rw-r-----"
+  },
+  "/secret.txt": {
+    "type": "file",
+    "owner": "richie",
+    "group": "admins",
+    "permissions": "rw-r-----",
+    "acl": {
+      "users": {
+        "test": "r"
+      },
+      "groups": {}
+    }
+  },
+  "/projects": {
+    "type": "dir",
+    "owner": "richie",
+    "group": "admins",
+    "permissions": "rwxr-x---",
+    "acl": {
+      "users": {},
+      "groups": {
+        "developers": "rw"
+      }
+    }
+  },
+  "/projects/reports.txt": {
+    "type": "file",
+    "owner": "richie",
+    "group": "admins",
+    "permissions": "rwxr-x---",
+    "acl": {
+      "users": {},
+      "groups": {
+        "developers": "rw"
+      }
+    }
+  }
+}
