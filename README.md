@@ -142,7 +142,3 @@ python3 -m pytest tests/
 - **permissions.py**: Permission validation logic
 - **acl.py**: ACL management
 - **audit.py**: Event logging
-
-## License
-
-This project is provided as-is for educational and development purposes.
